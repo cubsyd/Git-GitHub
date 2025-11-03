@@ -27,30 +27,30 @@ Este informe documenta el proceso completo para crear, configurar y subir un rep
 
 2. **Agrega los archivos al área de preparación**
    Usa `git add .` para incluir todos los archivos o `git add nombre_archivo` para uno específico.
-   ![Captura de git init](capturas/captura2.png)
+   ![Captura de git add](capturas/captura2.png)
 
    ---
 
 3. **Confirma los cambios**
    Ejecuta `git commit -m "Descripción de los cambios"` para guardar el estado actual.
-   ![Captura de git init](capturas/captura3.png)
+   ![Captura de git commit](capturas/captura3.png)
 
    ---
 
 4. **Conecta tu repositorio local con GitHub**
    Usa `git remote add origin https://github.com/tu_usuario/tu_repositorio.git`.
-   ![Captura de git init](capturas/captura4.png)
+   ![Captura de git remote](capturas/captura4.png)
 
    ---
 
 5. **Sube los cambios al repositorio remoto**
    Ejecuta `git push -u origin main` (o `master`, según tu configuración).
-   ![Captura de git init](capturas/captura5.png)
+   ![Captura de git push](capturas/captura5.png)
 
    ---
 
 6. **Verifica en GitHub**
    Abre tu repositorio en GitHub y asegúrate de que los archivos estén visibles.
-   ![Captura de git init](capturas/captura6.png)
+   ![Captura de repositorio](capturas/captura6.png)
 
    ---
