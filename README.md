@@ -31,26 +31,45 @@ Este informe documenta el proceso completo para crear, configurar y subir un rep
 
    ---
 
-3. **Confirma los cambios**
-   Ejecuta `git commit -m "Descripción de los cambios"` para guardar el estado actual.
+3. **Primer Commit**
+   Ejecuta `git commit -m "Primer commit de creación"` para guardar el estado actual.
    ![Captura de git commit](capturas/captura3.png)
 
    ---
 
-4. **Conecta tu repositorio local con GitHub**
+4. **Creación de repositorio**
+   Entra a Github.com, inicia sesión y dale a New Repository
+   ![Captura de github](capturas/captura4.png)
+   ---
+
+6. **Configuración de repositorio**
+   Dale a new repository y configura el proyecto
+   ![Captura de github](capturas/captura5.png)
+
+   ---
+
+7. **Conecta tu repositorio local con GitHub**
    Usa `git remote add origin https://github.com/tu_usuario/tu_repositorio.git`.
-   ![Captura de git remote](capturas/captura4.png)
+   ![Captura de git remote](capturas/captura6.png)
 
    ---
 
-5. **Sube los cambios al repositorio remoto**
+8. **Crea la rama main**
+   usa `git branch -M main`
+   ![Captura de git branch](capturas/captura7.png)
+
+   ---
+
+9. **Sube los cambios al repositorio remoto**
    Ejecuta `git push -u origin main` (o `master`, según tu configuración).
-   ![Captura de git push](capturas/captura5.png)
+   ![Captura de git push](capturas/captura8.png)
 
    ---
 
-6. **Verifica en GitHub**
+10. **Verifica en GitHub**
    Abre tu repositorio en GitHub y asegúrate de que los archivos estén visibles.
-   ![Captura de repositorio](capturas/captura6.png)
+   ![Captura de repositorio](capturas/captura9.png)
 
    ---
+
+   Eso seria el paso a paso para crear tu proyecto de github
